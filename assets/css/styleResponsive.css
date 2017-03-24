@@ -1,0 +1,64 @@
+/* Responsive Columns */
+
+@media only screen and (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+    }
+    .responsive {
+        width: 25%;
+    }
+    .gImg {
+        width: 100%;
+    }
+    img.lazy {
+        width: 150px;
+        height: 150px;
+    }
+    .aligner .item h1 {
+      font-size: 1em;
+      padding-top: 20px;
+    }
+    .navbar-toggle {
+        color: #000;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        padding: 0px;
+        border-radius: 0px;
+        border: none;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+    .kraken-nav a {
+        margin-top: 0px;
+    }
+    .item {
+        width: 100%;
+    }
+}
+/* iPad landscape*/
+
+@media only screen and (max-width: 667px) {
+    img.lazy {
+        width: 120px;
+        height: 120px;
+    }
+    .kraken-nav a {
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .responsive {
+        width: 50%;
+    }
+    img.lazy {
+        width: 160px;
+        height: 160px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    img.lazy {
+        width: 140px;
+        height: 140px;
+    }
+}
