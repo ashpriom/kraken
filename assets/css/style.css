@@ -88,7 +88,7 @@ img {
     position: relative;
 }
 .gallery img {
-    border-radius: 5px;
+    border-radius: 7px;
 }
 img.lazy {
     width: 230px;
@@ -98,6 +98,7 @@ img.lazy {
     background-image: url('../images/loading.gif');
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    border-color: transparent;
 }
 .gImg {
     float: left;
@@ -177,9 +178,7 @@ img.lazy {
     text-align: center;
     color: #444;
     background: #fff;
-    /* height: 150px; */
-    
-    font-size: 15px;
+    font-size: 14px;
 }
 #modalImage {
     text-align: center;
@@ -189,16 +188,16 @@ img.lazy {
     width: auto;
     max-width: 400px;
     background: #fff;
-    padding: 20px;
+    padding: 10px 0px;
 }
 /* Add Animation */
 
 .modal-content,
 #caption {
     -webkit-animation-name: zoom;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0.7s;
     animation-name: zoom;
-    animation-duration: 1s;
+    animation-duration: 0.7s;
 }
 @-webkit-keyframes zoom {
     from {

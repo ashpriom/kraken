@@ -16,8 +16,8 @@
                 <div id="myModal" class="modal">
                     <div class="modal-content">
                         <span class="close"><img src="../assets/images/close-btn.png"></span>
-                        <img id="modalImage">
                         <div id="caption"><?php echo $response->data[$k]->slug; ?></div>
+                        <img id="modalImage">
                     </div>
                 </div>
             

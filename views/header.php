@@ -25,7 +25,7 @@
         <title>Kraken</title>
         <link rel="shortcut icon" href="../assets/images/favicon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="../assets/css/style.min.css" type="text/css">
+        <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
         <link rel="stylesheet" href="../assets/css/styleResponsive.css" type="text/css">
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <!--[if lt IE 9]>
